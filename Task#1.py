@@ -1,6 +1,4 @@
 def palindrome(s1):
-
-
     reverse = ''.join(reversed(s1))
     if s1 == reverse:
         return "Строка является палиндромом"
