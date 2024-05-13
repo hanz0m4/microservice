@@ -19,20 +19,22 @@
 В ходе реализации fastapi проекта были получены следующие результаты:
 
 
-
+Студенты и группы
 <p align="center">
   <img src="https://github.com/hanz0m4/microservice/assets/166024789/955f4961-c22d-4cb2-b946-0a3841224092">
 </p>
 
-
+База данных PostreSQL
 <p align="center">
   <img src="https://github.com/hanz0m4/microservice/assets/166024789/82ed97d0-9099-48d2-86dc-471226066cba">
 </p>
 
+Студенты
 <p align="center">
   <img src="https://github.com/hanz0m4/microservice/assets/166024789/2fda92d1-0988-478d-a4cc-10ec3fbcfd2e">
 </p>
 
+Эндпоинты
 <p align="center">
   <img src="https://github.com/hanz0m4/microservice/assets/166024789/236847ec-0a57-4a6e-8012-de6cd261d0d4">
 </p>
