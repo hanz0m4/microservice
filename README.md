@@ -18,4 +18,6 @@
 
 В ходе реализации fastapi проекта были получены следующие результаты:
 
-
+<p align="center">
+  <img src="https://github.com/hanz0m4/microservice/assets/166024789/955f4961-c22d-4cb2-b946-0a3841224092">
+</p>
