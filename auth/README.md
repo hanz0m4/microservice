@@ -51,3 +51,12 @@
 <p align="center">
   <img src="https://github.com/hanz0m4/microservice/assets/166024789/6de70033-b555-4195-862c-5bcda62d978c">
 </p>
+
+Посмотрим, как сохранились данные в auth_db
+
+<p align="center">
+  <img src="https://github.com/hanz0m4/microservice/assets/166024789/e4d61e00-bfc7-4298-8254-1b78f5992020">
+</p>
+
+
+
