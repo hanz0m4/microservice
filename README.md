@@ -52,7 +52,7 @@
 
 
 
-Подключение базы данных PostgreSQL к auth service
+Подключение базы данных PostgreSQL к todo service
 
 <p align="center">
   <img src="https://github.com/hanz0m4/microservice/assets/166024789/82d24309-e2de-40a8-ad6c-28c208b6998d">
