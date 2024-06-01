@@ -1,0 +1,25 @@
+version: '3'
+
+services:
+  todo:
+    build: .
+    environment:
+      TODO_DATABASE_URL: ${TODO_DATABASE_URL}
+      JWT_SECRET: ${JWT_SECRET}
+    depends_on:
+      - todo-db
+      - auth
+    ports:
+      - "8001:8001"
+
+  todo-db:
+    image: postgres:13
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DB}
+    volumes:
+      - todo_postgres_data:/var/lib/postgresql/data
+
+volumes:
+  todo_postgres_data:
