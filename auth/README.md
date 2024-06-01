@@ -34,27 +34,20 @@
 
 В сервисе auth мы получили следующее:
 
-Работа docker-compose todo service
+Работа docker-compose auth service
 <p align="center">
-  <img src="https://github.com/hanz0m4/microservice/assets/166024789/77977b17-96b6-4669-a2c6-de2da130a3ad">
+  <img src="https://github.com/hanz0m4/microservice/assets/166024789/2bb77283-cce5-4d4a-b885-5aac3c3d8b4a">
 </p>
 
 
-Запуск на 8001 порту - todo service
+Запуск на 8000 порту - auth service
 <p align="center">
-  <img src="https://github.com/hanz0m4/microservice/assets/166024789/d051ecc1-9cff-4cd8-9da8-94eec4829ade">
+  <img src="https://github.com/hanz0m4/microservice/assets/166024789/e1e20346-6948-4f48-9be8-218da6878a60)">
 </p>
 
 
-Подключение базы данных PostgreSQL к todo service
+Подключение базы данных PostgreSQL к auth service
 
 <p align="center">
-  <img src="https://github.com/hanz0m4/microservice/assets/166024789/82d24309-e2de-40a8-ad6c-28c208b6998d">
-</p>
-
-
-Зарегистрировав нашего пользователя в сервисе auth, попробуем авторизоваться в сервисе todo. Авторизация происходит без проблем, попробуем проверить, если пользователя нет в базе данных
-
-<p align="center">
-  <img src="https://github.com/hanz0m4/microservice/assets/166024789/82d24309-e2de-40a8-ad6c-28c208b6998d">
+  <img src="https://github.com/hanz0m4/microservice/assets/166024789/6de70033-b555-4195-862c-5bcda62d978c">
 </p>
