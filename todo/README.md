@@ -1,7 +1,19 @@
 # Микросервис управления задачами
 
 В данном сервисе происходит управление задачами: добавление, чтение, обновление и удаление задач. Данные сохраняются в БД - PostgreSQL (todo_db). 
-Микросервис был развёрнут на 8001 порту.
+Микросервис был развёрнут на 8001 порту. Сервис содержит файлы:
+
+-	src
+     -
+     -
+     -
+     -
+-	env.example - переменные окружения
+-	docker-compose.yml - база данных и запуск сервиса
+-	requirements.txt - список всех библиотек в сервисе
+-	Dockerfile -
+
+
 
 #### Примечание 
 
@@ -27,3 +39,24 @@
 <p align="center">
   <img src="https://github.com/hanz0m4/microservice/assets/166024789/77977b17-96b6-4669-a2c6-de2da130a3ad">
 </p>
+
+
+Запуск на 8001 порту - todo service
+<p align="center">
+  <img src="https://github.com/hanz0m4/microservice/assets/166024789/d051ecc1-9cff-4cd8-9da8-94eec4829ade">
+</p>
+
+
+Подключение базы данных PostgreSQL к todo service
+
+<p align="center">
+  <img src="https://github.com/hanz0m4/microservice/assets/166024789/82d24309-e2de-40a8-ad6c-28c208b6998d">
+</p>
+
+Так как, наши сервисы развёрнуты на двух портах, то зарегистрируем пользователя с логином " " и поролем ""
+
+<p align="center">
+  <img src="https://github.com/hanz0m4/microservice/assets/166024789/82d24309-e2de-40a8-ad6c-28c208b6998d">
+</p>
+
+Теперь попробуем, снова
